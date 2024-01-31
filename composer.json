@@ -1,0 +1,24 @@
+{
+    "name": "manianrezaei/laravel-light-api",
+    "description": "Create automatic light api for laravel",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "ManianRezaei\\LaravelLightApi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Manian Rezaei",
+            "email": "manianrezaei@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ManianRezaei\\LaravelLightApi\\providers\\ApiLightServiceProvider"
+            ]
+        }
+    },
+    "require": {}
+}
